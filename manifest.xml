@@ -21,8 +21,8 @@
   <!-- Basic -->  
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="virtualization" revision="scarthgap" clone-depth="1"/>
   <project name="openembedded-core" path="sources/meta-openembedded-core" remote="oe-core" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="virtualization" revision="scarthgap" clone-depth="1"/>
   <project name="meta-selinux" path="sources/meta-selinux" remote="selinux" revision="scarthgap" clone-depth="1"/>
   <!-- hw specific -->
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="scarthgap" clone-depth="1"/>
