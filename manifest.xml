@@ -3,17 +3,28 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/yoctoproject" name="yocto"/>
 
-  <remote fetch="https://git.yoctoproject.org" name="meta-rpi"/>
+
+  <remote fetch="https://git.yoctoproject.org" name="meta-raspberrypi"/>
+  <!-- updater RAUC -->
   <remote fetch="https://github.com/rauc" name="meta-rauc"/>
-  <remote fetch="https://github.com/rauc" name="meta-rpi-rauc"/>
+  <remote fetch="https://github.com/rauc" name="meta-raspberrypi-rauc"/>
+  <!-- updater Update hub -->
+  <remote fetch="https://github.com/rust-embedded" name="meta-rust-embedded"/>
+  <remote fetch="https://github.com/UpdateHub" name="meta-update-hub"/>
+  <remote fetch="https://github.com/UpdateHub" name="meta-update-hub-raspberrypi"/>
 
   <default revision="main" sync-j="4"/>
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
 
-  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-rpi" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="scarthgap" clone-depth="1"/>
+  <!-- updater RAUC -->
   <project name="meta-rauc" path="sources/meta-rauc" remote="meta-rauc" revision="scarthgap" clone-depth="1"/>
-  <project name="meta-rauc-community" path="sources/meta-rauc-community" remote="meta-rpi-rauc" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-rauc-community" path="sources/meta-rauc-community" remote="meta-raspberrypi-rauc" revision="scarthgap" clone-depth="1"/>
+  <!-- updater Update hub -->
+  <project name="meta-rust-bin" path="sources/meta-rust-bin" remote="meta-rust-embedded" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-updatehub" path="sources/meta-updatehub" remote="meta-update-hub" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi" remote="meta-update-hub-raspberrypi" revision="scarthgap" clone-depth="1"/>
 
 </manifest>
