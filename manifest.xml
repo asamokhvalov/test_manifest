@@ -14,6 +14,6 @@
 
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-rpi" revision="scarthgap" clone-depth="1"/>
   <project name="meta-rauc" path="sources/meta-rauc" remote="meta-rauc" revision="scarthgap" clone-depth="1"/>
-  <project name="meta-rauc-raspberrypi" path="sources/meta-rauc-raspberrypi" remote="meta-rpi-rauc" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-rauc-community" path="sources/meta-rauc-community" remote="meta-rpi-rauc" revision="scarthgap" clone-depth="1"/>
 
 </manifest>
