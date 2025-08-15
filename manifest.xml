@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/openembedded" name="name-oe"/>
+
+  <default revision="main" sync-j="2"/>
+
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="name-oe" revision="scarthgap"/>
+
+</manifest>
