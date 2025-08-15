@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/yoctoproject/poky.git" name="yocto"/>
+  <remote fetch="https://github.com/yoctoproject" name="yocto"/>
 
   <default revision="main" sync-j="4"/>
 
