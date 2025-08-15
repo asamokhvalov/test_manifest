@@ -3,7 +3,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/yoctoproject" name="yocto"/>
 
-  <remote fetch="https://git.yoctoproject.org/meta-raspberrypi" name="meta-rpi"/>
+  <remote fetch="https://git.yoctoproject.org" name="meta-rpi"/>
   <remote fetch="https://github.com/rauc" name="meta-rauc"/>
   <remote fetch="https://github.com/rauc" name="meta-rpi-rauc"/>
 
