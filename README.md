@@ -1,3 +1,5 @@
+Need to set 777 access on host fot that foldrs that used in container
+
 ## TODO
 
 # Need add
