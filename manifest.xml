@@ -3,9 +3,17 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/yoctoproject" name="yocto"/>
 
+  <remote fetch="https://git.yoctoproject.org/meta-raspberrypi" name="meta-rpi"/>
+  <remote fetch="https://github.com/rauc" name="meta-rauc"/>
+  <remote fetch="https://github.com/rauc" name="meta-rpi-rauc"/>
+
   <default revision="main" sync-j="4"/>
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
+
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-rpi" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-rauc" path="sources/meta-rauc" remote="meta-rauc" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-rauc-raspberrypi" path="sources/meta-rauc-raspberrypi" remote="meta-rpi-rauc" revision="scarthgap" clone-depth="1"/>
 
 </manifest>
