@@ -17,7 +17,7 @@
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
-  <project name="openembedded-core" path="sources/poky" remote="oe-core" revision="scarthgap" clone-depth="1"/>
+  <project name="openembedded-core" path="sources/oe-core" remote="oe-core" revision="scarthgap" clone-depth="1"/>
 
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="scarthgap" clone-depth="1"/>
   <!-- updater RAUC -->
