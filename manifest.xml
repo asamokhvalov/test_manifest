@@ -7,7 +7,7 @@
   <remote fetch="git://git.yoctoproject.org" name="virtualization"/>
   <remote fetch="git://git.yoctoproject.org" name="selinux"/>
   <!-- hw specific -->
-  <remote fetch="https://git.yoctoproject.org" name="meta-raspberrypi"/>
+  <remote fetch="git://git.yoctoproject.org" name="meta-raspberrypi"/>
   <!-- updater RAUC -->
   <remote fetch="https://github.com/rauc" name="meta-rauc"/>
   <remote fetch="https://github.com/rauc" name="meta-raspberrypi-rauc"/>
