@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/openembedded" name="oe-core"/>
+  <remote fetch="https://github.com/yoctoproject/poky.git" name="yocto"/>
 
-  <default revision="main" sync-j="2"/>
+  <default revision="main" sync-j="4"/>
 
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
-  <project name="openembedded-core" path="sources/openembedded-core" remote="oe-core" revision="scarthgap"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
 
 </manifest>
