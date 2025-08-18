@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Basic -->  
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/yoctoproject" name="poky"/>
+  <remote fetch="git://git.openembedded.org" name="oe-core"/>
+  <!-- hw specific -->
+  <remote fetch="git://git.yoctoproject.org" name="meta-raspberrypi"/>
+
+  <default revision="scarthgap" sync-j="4"/>
+
+  <!-- Basic -->  
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="491671faee11ea131feab5a3a451d1a01deb2ab1" clone-depth="1"/>
+  <project name="poky" path="sources/poky" remote="poky" revision="a817e2016f3728bfcab9cad041620cc66d77e34b" clone-depth="1"/>
+  <project name="openembedded-core" path="sources/meta-openembedded-core" remote="oe-core" revision="f023779af6c0e5c838bdacbd6d9765d1c6740575" clone-depth="1"/>
+  <!-- hw specific -->
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="3b27c95c163a042f8056066ec3d27edfcc42da7f" clone-depth="1"/>
+</manifest>
