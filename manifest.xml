@@ -31,7 +31,7 @@
   <project name="meta-rauc-community" path="sources/meta-rauc-community" remote="meta-raspberrypi-rauc" revision="scarthgap" clone-depth="1"/>
   <!-- updater Update hub -->
   <project name="meta-rust-bin" path="sources/meta-rust-bin" remote="meta-rust-embedded" revision="master" clone-depth="1"/>
-  <project name="meta-updatehub" path="sources/meta-updatehub" remote="meta-update-hub" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-updatehub" path="sources/meta-updatehub" remote="meta-update-hub" revision="master" clone-depth="1"/>
   <project name="meta-updatehub-raspberrypi" path="sources/meta-updatehub-raspberrypi" remote="meta-update-hub-raspberrypi" revision="master" clone-depth="1"/>
 
 </manifest>
