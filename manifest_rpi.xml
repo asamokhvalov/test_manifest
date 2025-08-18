@@ -7,7 +7,7 @@
   <remote fetch="git://git.yoctoproject.org" name="meta-raspberrypi"/>
 
   <default revision="scarthgap" sync-j="4"/>
-/poky
+
   <!-- Basic -->  
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
   <project name="poky" path="sources/poky" remote="poky" revision="scarthgap" clone-depth="1"/>
