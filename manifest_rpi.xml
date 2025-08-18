@@ -2,10 +2,8 @@
 <manifest>
   <!-- Basic -->  
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/yoctoproject" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe-core"/>
-  <remote fetch="git://git.yoctoproject.org" name="virtualization"/>
-  <remote fetch="git://git.yoctoproject.org" name="selinux"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto-projects"/>
   <!-- hw specific -->
   <remote fetch="git://git.yoctoproject.org" name="meta-raspberrypi"/>
 
@@ -13,10 +11,10 @@
 
   <!-- Basic -->  
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" clone-depth="1"/>
+  <project name="poky" path="sources/poky" remote="yocto-projects" revision="scarthgap" clone-depth="1"/>
   <project name="openembedded-core" path="sources/meta-openembedded-core" remote="oe-core" revision="scarthgap" clone-depth="1"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="virtualization" revision="scarthgap" clone-depth="1"/>
-  <project name="meta-selinux" path="sources/meta-selinux" remote="selinux" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto-projects" revision="scarthgap" clone-depth="1"/>
+  <project name="meta-selinux" path="sources/meta-selinux" remote="yocto-projects" revision="scarthgap" clone-depth="1"/>
   <!-- hw specific -->
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="scarthgap" clone-depth="1"/>
 </manifest>
