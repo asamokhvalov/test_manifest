@@ -16,7 +16,7 @@
   <remote fetch="https://github.com/UpdateHub" name="meta-update-hub"/>
   <remote fetch="https://github.com/UpdateHub" name="meta-update-hub-raspberrypi"/>
 
-  <default revision="main" sync-j="4"/>
+  <default revision="scarthgap" sync-j="4"/>
 
   <!-- Basic -->  
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
