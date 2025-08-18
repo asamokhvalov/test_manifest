@@ -6,7 +6,7 @@
   <!-- hw specific -->
   <remote fetch="git://git.yoctoproject.org" name="meta-raspberrypi"/>
 
-  <default revision="scarthgap" sync-j="4"/>
+  <default revision="main" sync-j="4"/>
 
   <!-- Basic -->  
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
