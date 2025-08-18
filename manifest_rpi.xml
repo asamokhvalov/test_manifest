@@ -9,8 +9,8 @@
   <default revision="scarthgap" sync-j="4"/>
 
   <!-- Basic -->  
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="205638f9edf8e1aa1fbcf28555625fe56f2701a5" clone-depth="1"/>
-  <project name="poky" path="sources/poky" remote="poky" revision="f9e0afedea37edeabc7dcb03bddd7a60fe8d6945" clone-depth="1"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap" clone-depth="1"/>
+  <project name="poky" path="sources/poky" remote="poky" revision="scarthgap" clone-depth="1"/>
   <!-- hw specific -->
-  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="3afc9728b1f4ba0f5be1af34883d6582966133a1" clone-depth="1"/>
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="meta-raspberrypi" revision="scarthgap" clone-depth="1"/>
 </manifest>
